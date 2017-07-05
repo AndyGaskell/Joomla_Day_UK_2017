@@ -25,6 +25,8 @@ Aspects covered in the talk include
 
 The talk will be supported by a repository of examples code and notes in GitHub.
 
+See also http://www.joomla-day.uk and http://www.joomla-day.uk/component/timetable/event/devops-for-joomla
+
 
 ## Running the slides
 The slides are done in Reveal.js so that is needed to run the slidedeck.  See https://github.com/hakimel/reveal.js for more info.
@@ -37,6 +39,7 @@ The slides are done in Reveal.js so that is needed to run the slidedeck.  See ht
 * Akeeba - https://www.akeebabackup.com
 * Joomlatools Vagrant - https://github.com/joomlatools/joomlatools-vagrant
 
+* Overview of Git Hooks - https://www.atlassian.com/git/tutorials/git-hooks
 * git-ftp - https://github.com/git-ftp/git-ftp
 * CasperJS - https://github.com/casperjs/casperjs
 * Codeception - http://www.codeception.com/
@@ -94,3 +97,7 @@ Get updates from master...
 `git fetch origin`
 
 `git pull`
+
+changes made at  2017-07-05:21:31:00
+ M README.md
+ 
