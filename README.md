@@ -93,7 +93,7 @@ Send updates to master...
 `git push -u origin master`
 
 Get updates from master...
- 
+
 `git fetch origin`
 
 `git pull`
