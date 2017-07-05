@@ -7,7 +7,7 @@ Slides and examples from my talk at Joomla Day UK 2017
 * You can watch the talk on YouTube at TBC
 
 
-## Into: Your Joomla dev-ops, ci/cd toolbox
+## Intro: DevOps for Joomla
 
 The talk is about DevOps for Joomla, from a practical perspective. It is based on a talk given at J & Beyond 2017, but adapted to contain more balanced and slightly less technical content. It is intended to cover the whole area, with specific details pulled out and drilled into.
 
