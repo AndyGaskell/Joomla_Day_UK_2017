@@ -86,7 +86,7 @@ Commit...
 
 Commit...
 
-`git commit -a -m "udates"`
+`git commit -a -m "updates"`
 
 Send updates to master...
 
@@ -98,15 +98,4 @@ Get updates from master...
 
 `git pull`
 
-changes made at  2017-07-05:21:31:00
- M README.md
- 
-changes made at  2017-07-05:21:44:01
-MM README.md
- 
-changes made at  2017-07-05:21:46:00
-MM README.md
- 
-changes made at  2017-07-05:21:48:13
-MM README.md
- 
+
