@@ -48,7 +48,10 @@
                 font-size: 55%;
                 margin-top: 0px;
                 margin-bottom: 0px;
-            }     
+            }   
+            .reveal p {
+                margin: 10px 0;
+            }  
             
             
             .col1of2 {
@@ -301,27 +304,52 @@ echo " " >>README.md</code></pre>
     </aside>
 </section> 
 
-
-
 <section>
     <h2>git-ftp (the bash one)</h2>
     <ul>
         <li>https://github.com/git-ftp/git-ftp</li>
         <li>Lovely tool for deployment</li>
+        <li>Works on any hosting that supports FTP</li>
         <li>Can just upload the changed files</li>
-        <li>Works really nicely as a post-receive git hook</li>
-    </ul>
-    <p>Upload all</p>
-    <pre><code>git ftp init</code></pre>
-    <p>Upload changes</p>
-    <pre><code>git ftp catchup</code></pre>    
+        <li>Works great as a post-receive or post-commit git hook</li>
+        <li>Stores local config in ".git/config"</li>
+        <li>Stores remote config in ".git-ftp.log"</li>
+    </ul>  
     <aside class="notes">
     </aside>
 </section> 
 
+<section>
+    <h2>git-ftp in use</h2>
+    <p>One time set-up, a few bash commands, run each of...</p>
+    <pre><code>git config git-ftp.url myurl.co.uk
+git config git-ftp.user myusername
+git config git-ftp.password mypassword
+git config git-ftp.syncroot mylocaldir
+git config git-ftp.remote-root myremotedir</code></pre>
+    <p>Then, initial upload of everything...</p>
+    <pre><code>git ftp init</code></pre>
+    <p>Or set-up if files are already there...</p>
+    <pre><code>git ftp catchup</code></pre>    
+    <p>Incremental uploads...</p>
+    <pre><code>git ftp push</code></pre>    
+    <aside class="notes">
+        Config written to ".git/config" easy to check and edit
+        git ftp init does initial upload
+    </aside>
+</section> 
 
+<section>
+    <h2>git-ftp with a git hook</h2>
+    <p>Run set-up as per previous slide.</p>
+    <p>Put code in ".git/hooks/post-commit".</p>
+    <pre><code>#!/bin/sh
+git ftp push</code></pre>
+    <p>Every time you commit, it'll upload the changed files.</p> 
+    <aside class="notes">
 
-
+    </aside>
+</section>
 
 <section data-background-image="images/cacti/small_DSC09530.JPG">
     <h1>Automate Deployment</h1>
