@@ -8,7 +8,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Andy Gaskell - Your Joomla dev-ops, ci & cd toolbox</title>
+        <title>Andy Gaskell - DevOps for Joomla</title>
 
         <meta name="description" content="A talk about Joomla for Joomla Day UK 2017">
         <meta name="author" content="Andy Gaskell">
@@ -286,6 +286,22 @@ Longitude: 0.25242
     <aside class="notes">
     </aside>
 </section> 
+
+<section>
+    <h2>Git hook - basic pre-commit example</h2>
+    <p>Just in ".git/hooks/pre-commit"</p>
+    <pre><code>#!/bin/sh
+DATE=`date +%Y-%m-%d:%H:%M:%S`
+echo "changes made at" $DATE >>README.md
+git status -s >>README.md
+echo " " >>README.md</code></pre>
+    <p>Good to start with a basic one.  Just appends file change info to the readme, like a change-log.</p>
+    <aside class="notes">
+        Not really that useful, but handy to check all's working
+    </aside>
+</section> 
+
+
 
 <section>
     <h2>git-ftp (the bash one)</h2>

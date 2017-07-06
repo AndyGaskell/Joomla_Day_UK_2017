@@ -104,3 +104,7 @@ MM README.md
 M  slides/slides.html
 ?? slides/reveal.js/
  
+changes made at  2017-07-06:22:27:40
+MM README.md
+?? slides/reveal.js/
+ 
