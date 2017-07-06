@@ -99,3 +99,8 @@ Get updates from master...
 `git pull`
 
 
+changes made at  2017-07-06:22:27:34
+MM README.md
+M  slides/slides.html
+?? slides/reveal.js/
+ 
