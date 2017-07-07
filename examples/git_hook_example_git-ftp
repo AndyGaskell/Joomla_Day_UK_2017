@@ -1,0 +1,27 @@
+#!/bin/sh
+########
+# Notes
+#
+# This is an example script yhat could be used as a git hook
+# rename it and put it in the ".git/hooks" directory
+# Rename it to post-commit, for example.
+# make sure it is executable
+
+# Set up git-ftp first, with commands like
+#git config git-ftp.url myurl.co.uk
+#git config git-ftp.user myusername
+#git config git-ftp.password mypassword
+#git config git-ftp.syncroot mylocaldir
+#git config git-ftp.remote-root myremotedir
+
+# If files are not online already, run...
+#git ftp init
+
+# If files are already online, run...
+#git ftp catchup
+
+########
+# Script
+#
+# this pushes changed files to the ftp server
+git ftp push

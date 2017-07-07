@@ -118,3 +118,8 @@ MM README.md
 M  slides/slides.html
 ?? slides/reveal.js/
  
+changes made at 2017-07-07:16:11:09
+MM README.md
+M  slides/slides.html
+?? slides/reveal.js/
+ 
