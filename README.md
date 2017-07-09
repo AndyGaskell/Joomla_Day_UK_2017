@@ -4,7 +4,7 @@
 
 Slides and examples from my talk at Joomla Day UK 2017
 * If you'd like to simply view the slides, go to http://www.ssofb.co.uk/slides/Joomla_Day_UK_2017
-* You can watch the talk on YouTube at TBC
+* You can watch the talk on YouTube at https://youtu.be/w5ORPXt6W_o
 
 
 ## Intro: DevOps for Joomla
