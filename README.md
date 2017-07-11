@@ -99,27 +99,3 @@ Get updates from master...
 `git pull`
 
 
-changes made at  2017-07-06:22:27:34
-MM README.md
-M  slides/slides.html
-?? slides/reveal.js/
- 
-changes made at  2017-07-06:22:27:40
-MM README.md
-?? slides/reveal.js/
- 
-changes made at 2017-07-06:22:52:53
-MM README.md
-M  slides/slides.html
-?? slides/reveal.js/
- 
-changes made at 2017-07-07:00:03:49
-MM README.md
-M  slides/slides.html
-?? slides/reveal.js/
- 
-changes made at 2017-07-07:16:11:09
-MM README.md
-M  slides/slides.html
-?? slides/reveal.js/
- 
